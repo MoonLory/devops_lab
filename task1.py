@@ -1,6 +1,6 @@
 D = {}
 n = int(input())
-for i in range(0, n):
+for i in range(n):
     s = input()
     parts = s.split()
     aver = (float(parts[1]) + float(parts[2]) + float(parts[3])) / 3.0

@@ -3,9 +3,9 @@ keys = input()
 values = input()
 k = keys.split()
 val = values.split()
-for i in range(0, len(k)):
+for i in range(len(k)):
     if i < len(val):
-        D[k[i]] = val[i]
+        D[int(k[i])] = int(val[i])
     else:
-        D[k[i]] = "None"
+        D[int(k[i])] = None
 print(D)
