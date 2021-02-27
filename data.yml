@@ -1,0 +1,9 @@
+apache_vhosts:
+- servername: srvHrysha1
+  documentroot: hrysha1
+  serveradmin: hrysha1
+  directorypath: "C:/Users/Lory/PycharmProjects/lab5"
+- servername: srvHrysha2
+  documentroot: hrysha2
+  serveradmin: hrysha2
+  directorypath: "C:/Users/Lory/PycharmProjects/lab5"
