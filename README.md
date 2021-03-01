@@ -1,1 +1,8 @@
-DevOps Lab 2021 winter/spring
+# ***App for logging the system***
+
+***install***
+> pip install .
+***uninstall***
+> pip uninstall snapshot
+***how to use?***
+> snapshot [-i <interval>] -f <txt or json format>
