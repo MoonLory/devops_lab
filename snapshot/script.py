@@ -53,5 +53,5 @@ def begin():
 
     while True:
         snap = Snapshot()
-        Printer.write(fileformat, snap.__str__())
+        Printer.write(fileformat, str(snap))
         time.sleep(interval * 60)
